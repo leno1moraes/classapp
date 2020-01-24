@@ -1,0 +1,159 @@
+	<table class="bordercustomizado meustilo table-sm-4 table-no-bordered col-sm-4">
+		<tr>
+			<td class="border border-secondary rounded-top" colspan="2" align="center" bgcolor="#262626">
+				<font color="white" style="font-size:2em">1º A</font>
+			</td>
+		</tr>		
+		<tr>
+			<td class="border border-secondary rounded" colspan="2" bgcolor="#262626">
+				<font color="white" style="font-size:1.5em">Segunda-Feira</font>
+			</td>
+		</tr>		
+		
+		
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">07:15</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 1
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">08:05</font>
+			</td>			
+		</tr>	
+		
+		
+		
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">08:05</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 2
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">08:55</font>
+			</td>			
+		</tr>
+
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">08:55</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 3
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">09:45</font>
+			</td>			
+		</tr>		
+
+		<tr>
+			<td colspan="2" align="center" valign="middle" bgcolor="#000000">
+				<font color="white">INTERVALO</font>
+			</td>					
+		</tr>
+
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">10:00</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 4
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">10:50</font>
+			</td>			
+		</tr>
+
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">10:50</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 5
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">11:40</font>
+			</td>			
+		</tr>
+
+		<tr>
+			<td colspan="2" align="center" valign="middle" bgcolor="#000000">
+				<font color="white">ALMOÇO</font>
+			</td>					
+		</tr>
+
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">13:30</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 6
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">14:20</font>
+			</td>			
+		</tr>
+
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">14:20</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 7
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">15:10</font>
+			</td>			
+		</tr>		
+
+		<tr>
+			<td colspan="2" align="center" valign="middle" bgcolor="#000000">
+				<font color="white">INTERVALO</font>
+			</td>					
+		</tr>
+
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">15:25</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 8
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">16:15</font>
+			</td>			
+		</tr>
+
+		<tr>
+			<td class="border border-secondary rounded-top" width="30%" align="center" bgcolor="#262626">
+				<font color="white">16:15</font>
+			</td>
+			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="#0033cc">
+				Aula 9
+			</td>			
+		</tr>
+		<tr>
+			<td class="border border-secondary rounded-bottom" align="center" bgcolor="#000000">
+				<font color="white">17:05</font>
+			</td>			
+		</tr>
+	</table>
