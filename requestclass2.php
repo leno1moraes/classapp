@@ -1,7 +1,7 @@
 <?php 
     require_once("header.php");
 ?>
-	<br>
+	<hr>
 
 	<div class="col-sm-4">
 

@@ -2,8 +2,7 @@
     require_once("header.php");
 ?>    
 
-
-Fazer algo aqui
+menu principal
 
 <?php 
     require_once("footer.php");

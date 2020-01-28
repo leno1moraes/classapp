@@ -24,7 +24,7 @@
 	
 	<form action="inserttbprofessor.php" method="POST" enctype="multipart/form-data">
 		<div class="form-group col-sm-4">
-			<p> <label for="Inputdeswhatsapp">Whatsapp: </label> <input type="text" class="form-control" name="deswhatsapp" placeholder="Obrigatório" required></p>
+			<p> <label for="Inputdeswhatsapp">Whatsapp: </label> <input type="tel" class="form-control phone-mask" name="deswhatsapp" placeholder="Whatsapp" data-mask="(00) 00000-0000" required autofocus>	</p>
 
 			<p> <label for="Inputdespassword">Senha: </label> <input type="password" class="form-control" name="despassword" placeholder="Obrigatório" required></p>	
 
@@ -42,6 +42,7 @@
     <script src="bootstrap/node_modules/jquery/dist/jquery.js"></script>
     <script src="bootstrap/node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="jquery_mask/dist/jquery.mask.min.js"></script>
 
 </body>
 </html>

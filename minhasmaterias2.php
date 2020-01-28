@@ -29,12 +29,14 @@
 			</td>
 			-->
 			
+			<!--
 			<td width="15%" align="right">
 				<span class="oi oi-pencil"></span>
 			</td>
+			-->
 
 			<td width="15%" align="right">
-				<span class="oi oi-delete"></span>
+				<a href="deleteminhasmaterias.php?idmatprofessor=<?=$dados["idmatprofessor"]?>"><span class="oi oi-delete"></span></a>
 			</td>
 		</tr>
 

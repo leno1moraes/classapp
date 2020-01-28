@@ -2,7 +2,7 @@
 <?php 
     require_once("header.php");
 ?>
-	<br>
+	<hr>
     <?php       
     	/*
 		0 - domingo

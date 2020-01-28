@@ -157,11 +157,11 @@
       <ul class="sidebar-menu tree" data-widget="tree">
 
 
-        <li><a href="quadrohorario2.php"><i class="fa fa-archive"></i> <span>Quadro de Horário*</span></a></li>
-        <li><a href="myrequests2.php"><i class="fa fa-archive"></i> <span>Minhas Solicitações *</span></a></li>
-        <li><a href="requestclass2.php"><i class="fa fa-edit"></i> <span>Solicitar Aula *</span></a></li>
-        <li><a href="myauthorize2.php"><i class="fa fa-laptop"></i> <span>Autorizações *</span></a></li>
-        <li><a href="formcad2.php"><i class="fa fa-th"></i> <span>Minhas Informações * </span></a></li>   
+        <li><a href="quadrohorario2.php"><i class="fa fa-archive"></i> <span>Quadro de Horário</span></a></li>
+        <li><a href="myrequests2.php"><i class="fa fa-archive"></i> <span>Minhas Solicitações</span></a></li>
+        <li><a href="requestclass2.php"><i class="fa fa-edit"></i> <span>Solicitar Aula</span></a></li>
+        <li><a href="myauthorize2.php"><i class="fa fa-laptop"></i> <span>Autorizações</span></a></li>
+        <li><a href="formcad2.php"><i class="fa fa-th"></i> <span>Minhas Informações</span></a></li>   
         <li><a href="minhasmaterias2.php"><i class="fa fa-tags"></i> <span>Minhas Matérias *</span></a></li>
 		<li><a href="login.php"><i class="fa fa-sign-out"></i> <span>Sair *</span></a></li>
       </ul>

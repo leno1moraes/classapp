@@ -1,7 +1,7 @@
 <?php 
     require_once("header.php");
 ?>
-	<br>
+	<hr>
 
     <?php
 
@@ -46,7 +46,9 @@
     	}
       	$listadados = mysqli_query($conexao, $query);
 
+      	$row_count = mysqli_num_rows($listadados);
 
+      	if ($row_count > 0) {
     ?>  
 
     <div class="col-sm-8">
@@ -148,5 +150,10 @@
 	</div>
 
 <?php 
+		}else{
+			echo '<strong>&nbsp;&nbsp;&nbsp;&nbsp;Não há autorizações</strong>';
+
+		}
+
     require_once("footer.php");
 ?> 
