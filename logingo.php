@@ -9,7 +9,7 @@
 	$login = str_replace(' ', '', $login);
 	$password = $_POST["despassword"];
 
-	$query = "select idprofessor, desname, desemail, deswhatsapp, despassword from tb_professor where deswhatsapp = '$login' and despassword = '$password'";
+	$query = "select idprofessor, desname, desemail, deswhatsapp, despassword, hierarchy from tb_professor where deswhatsapp = '$login' and despassword = '$password'";
 
 	$resultt = mysqli_query($conexao, $query);
 
@@ -34,8 +34,9 @@
         $_SESSION['UserName'] = $dados['desname'];
         $_SESSION['UserEmail'] = $dados['desemail'];
         $_SESSION['UserWhatsapp'] = $dados['deswhatsapp'];
+        $_SESSION['UserHierarchy'] = $dados['hierarchy'];
 
-        header("Location: menuprincipal.php");
+        header("Location: menuprincipal3.php");
 
 	}else{
 

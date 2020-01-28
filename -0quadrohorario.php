@@ -2,13 +2,15 @@
 	require_once("connect.php");
 	require_once("verifyauth.php");
 
-	ini_set('default_charset','ISO-8859-1');
+	ini_set('default_charset','UTF-8');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">  	
+	-->
 
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/style.css">
@@ -38,10 +40,14 @@
 		5 - sexta
 		6 - sabado
     	*/
-    	/*echo "Dia da Semana: ".date('w');
-    	echo "<br><br><hr>";*/
 
     	$dayweek = date('w');
+
+    	if ($dayweek == 0 || $dayweek == 6){
+    		$dayweek = 5;
+    	}
+
+    	$dayweek = 5;
 
     	$query = "select a.idquadrodehorario, a.idday, b.desday, a.idhourrangeclass, 
 					   d.hour_inicio, d.hour_fim, a.idmatprofessor, f.desmateria, e.descolor, g.desname, a.idclassroom, h.desclassroom
@@ -53,8 +59,9 @@
 				    left join tb_materia f on e.idmateria = f.idmateria
 				    left join tb_professor g on e.idprofessor = g.idprofessor
 				    left join tb_classroom h on a.idclassroom = h.idclassroom
-				where b.idday = ".$dayweek." and a.idclassroom = 1
-				order by a.idquadrodehorario asc";
+				where b.idday = ".$dayweek." and a.idclassroom = 1 and a.flag in (0, 5)
+				order by a.idhourrangeclass asc";
+				/*order by a.idquadrodehorario asc*/
         $listadados=mysqli_query($conexao, $query);
 
         $dado = mysqli_fetch_array($listadados);
@@ -63,12 +70,12 @@
 	<table class="bordercustomizado meustilo table-sm-4 table-no-bordered col-sm-4">
 		<tr>
 			<td class="border border-secondary rounded-top" colspan="2" align="center" bgcolor="#262626">
-				<font color="white" style="font-size:2em"><?=$dado["desclassroom"]?><!--1º A--></font>
+				<font color="white" style="font-size:2em"><?=utf8_encode($dado["desclassroom"])?><!--1º A--></font>
 			</td>
 		</tr>		
 		<tr>
 			<td class="border border-secondary rounded" colspan="2" bgcolor="#262626">
-				<font color="white" style="font-size:1.5em"><?=$dado["desday"]?><!--Segunda-Feira--></font>
+				<font color="white" style="font-size:1.5em"><?=utf8_encode($dado["desday"])?><!--Segunda-Feira--></font>
 			</td>
 		</tr>
  
@@ -77,7 +84,7 @@
 				<font color="white"><?=$dado["hour_inicio"]?><!--07:15--></font>
 			</td>
 			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="<?=$dado["descolor"]?>">
-				<?=$dado["desmateria"]?><!--Aula 1-->
+				<?=utf8_encode($dado["desmateria"])?><!--Aula 1-->
 			</td>			
 		</tr>
 		<tr>
@@ -101,7 +108,7 @@
 				<font color="white"><?=$dados["hour_inicio"]?><!--08:55--></font>
 			</td>
 			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="<?=$dados["descolor"]?>">
-				<?=$dados["desmateria"]?><!--Aula 3-->
+				<?=utf8_encode($dados["desmateria"])?><!--Aula 3-->
 			</td>			
 		</tr>
 		<tr>
@@ -126,7 +133,7 @@
 				<font color="white"><?=$dados["hour_inicio"]?><!--10:50--></font>
 			</td>
 			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="<?=$dados["descolor"]?>">
-				<?=$dados["desmateria"]?><!--Aula 5-->
+				<?=utf8_encode($dados["desmateria"])?><!--Aula 5-->
 			</td>			
 		</tr>
 		<tr>
@@ -150,7 +157,7 @@
 				<font color="white"><?=$dados["hour_inicio"]?><!--14:20--></font>
 			</td>
 			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="<?=$dados["descolor"]?>">
-				<?=$dados["desmateria"]?><!--Aula 7-->
+				<?=utf8_encode($dados["desmateria"])?><!--Aula 7-->
 			</td>			
 		</tr>
 		<tr>
@@ -174,7 +181,7 @@
 				<font color="white"><?=$dados["hour_inicio"]?><!--07:15--></font>
 			</td>
 			<td class="rounded-right" rowspan="2" width="70%" align="center" valign="middle" bgcolor="<?=$dados["descolor"]?>">
-				<?=$dados["desmateria"]?><!--Aula 2-->
+				<?=utf8_encode($dados["desmateria"])?><!--Aula 2-->
 			</td>			
 		</tr>
 		<tr>

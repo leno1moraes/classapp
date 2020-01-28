@@ -28,10 +28,10 @@
         
         $_SESSION['UserWhatsapp'] = $rdeswhatsapp;
 
-		echo "<script language='javascript' type='text/javascript'> alert('Cadastrado com Sucesso!');window.location.href='menuprincipal.php'</script>";
+		echo "<script language='javascript' type='text/javascript'> alert('Cadastrado com Sucesso!');window.location.href='formcad2.php'</script>";
 
     } else {
-		echo "<script language='javascript' type='text/javascript'> alert('Erro, não foi possivel executar tal operação');window.location.href='formcad.php'</script>";             
+		echo "<script language='javascript' type='text/javascript'> alert('Erro, não foi possivel executar tal operação');window.location.href='formcad2.php'</script>";             
     }
     
     //echo "Aqui 4 <br";

@@ -1,9 +1,15 @@
+<?php 
+	ini_set('default_charset','UTF-8');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Class App</title>
+	<!--
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">  	
+	-->
+  	<title>Class App</title>
 	
 	
 </head>

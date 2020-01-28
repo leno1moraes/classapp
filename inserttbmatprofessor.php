@@ -15,10 +15,10 @@
 	$insert = mysqli_query($conexao, $query);
 
     if ($insert) {      
-		echo "<script language='javascript' type='text/javascript'> alert('Cadastrado com Sucesso!');window.location.href='minhasmaterias.php'</script>";
+		echo "<script language='javascript' type='text/javascript'> alert('Cadastrado com Sucesso!');window.location.href='minhasmaterias2.php'</script>";
 
     } else {
-		echo "<script language='javascript' type='text/javascript'> alert('Erro, não foi possivel executar tal operação');window.location.href='formcadclass.php'</script>";             
+		echo "<script language='javascript' type='text/javascript'> alert('Erro, não foi possivel executar tal operação');window.location.href='formcadclass2.php'</script>";             
     }
     
     mysqli_close($conexao);	

@@ -1,20 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
-  <link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/style.css">
-
-  <title>Class App - Cadastro de Usuário</title>
-	
-<style>
-
-</style>	
-	
-</head>
-<body>
+<?php 
+    require_once("header.php");
+?>
+	<br>
 	
 	<form action="inserttbprofessor.php" method="POST" enctype="multipart/form-data">
 		<div class="form-group col-sm-4">
@@ -30,12 +17,6 @@
 		</div>
 	</form>
 	
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
-    <script src="bootstrap/node_modules/jquery/dist/jquery.js"></script>
-    <script src="bootstrap/node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>
-
-</body>
-</html>
+<?php 
+    require_once("footer.php");
+?> 

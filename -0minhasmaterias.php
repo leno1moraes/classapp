@@ -1,13 +1,15 @@
 <?php 
 	require_once("connect.php");
 	require_once("verifyauth.php");
-	ini_set('default_charset','ISO-8859-1');
+	ini_set('default_charset','UTF-8');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+	<!--
 	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">  	
+	-->		
 
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/style.css">
@@ -56,7 +58,7 @@
         ?>         
 		<tr>
 			<td class="rounded" bgcolor="<?=$dados["descolor"]?>" align="center">
-				<?=$dados["desmateria"]?>
+				<?=utf8_encode($dados["desmateria"])?>
 
 			</td>
 			

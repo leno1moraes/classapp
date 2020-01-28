@@ -1,12 +1,14 @@
 <?php 
     require_once("verifyauth.php");
-
+	ini_set('default_charset','UTF-8');
 ?>
 <!DOCTYPE html>
 <html>
 <head>
+	<!--
 	<meta charset="utf-8">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge">  	
+	-->	
 
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/style.css">
@@ -20,6 +22,8 @@
 </head>
 <body>
 
+Usuário: <?=utf8_encode($_SESSION['UserName'])?>
+
 <br>	
 
 <button class="btn btn-danger" onclick="location.href='logingoout.php'">Sair</button>
@@ -29,22 +33,32 @@
 	<table class="table table-bordered col-sm-3">
 		<tr>
 			<td>
+				<button class="btn btn-info col-sm" onclick="location.href='quadrohorario.php'">Quadro de Horários</button>
+			</td>
+		</tr>		
+		<tr>
+			<td>
+				<button class="btn btn-info col-sm" onclick="location.href='requestclass.php'">Solicitar Aula</button>
+			</td>
+		</tr>	
+		<tr>
+			<td>
+				<button class="btn btn-info col-sm" onclick="location.href='myauthorize.php'">Autorizações</button>
+			</td>
+		</tr>			
+		<tr>
+			<td>
 				<button class="btn btn-info col-sm" onclick="location.href='formcad.php'">Minhas Informações</button>
 			</td>
-		</tr>
+		</tr>	
+		<tr>
+			<td>
+				<button class="btn btn-info col-sm" onclick="location.href='myrequests.php'">Minhas Solicitações</button>
+			</td>
+		</tr>			
 		<tr>
 			<td>
 				<button class="btn btn-info col-sm" onclick="location.href='minhasmaterias.php'">Minhas Matérias</button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<button class="btn btn-info col-sm" onclick="location.href=''">Solicitar Aula</button>
-			</td>
-		</tr>
-		<tr>
-			<td>
-				<button class="btn btn-info col-sm" onclick="location.href='quadrohorario.php'">Ver horários</button>
 			</td>
 		</tr>
 	</table>
