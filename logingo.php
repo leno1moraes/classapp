@@ -2,19 +2,13 @@
 
     require_once("connect.php");
 
-	$login = $_POST["deswhatsapp"];
-	$login = str_replace('(', '', $login);
-	$login = str_replace(')', '', $login);
-	$login = str_replace('-', '', $login);
-	$login = str_replace(' ', '', $login);
-	$password = $_POST["despassword"];
+	$login 		= $_POST["username"];
+	$password 	= $_POST["password"];
 
-	$query = "select idprofessor, desname, desemail, deswhatsapp, despassword, hierarchy from tb_professor where deswhatsapp = '$login' and despassword = '$password'";
+	$query = "select idprofessor, desname, desemail, deswhatsapp, despassword, hierarchy, desmatricula from tb_professor where desmatricula = '$login' and despassword = '$password'";
 
 	$resultt = mysqli_query($conexao, $query);
-
 	$total = mysqli_num_rows($resultt);
-
 	$dados = mysqli_fetch_assoc($resultt);
 
     /*var_dump($dados['idprofessor']);
@@ -23,7 +17,6 @@
     echo "<br>";
     var_dump($dados['desemail']);
     exit();*/	
-
 	
 	if($total > 0){
 
@@ -35,6 +28,7 @@
         $_SESSION['UserEmail'] = $dados['desemail'];
         $_SESSION['UserWhatsapp'] = $dados['deswhatsapp'];
         $_SESSION['UserHierarchy'] = $dados['hierarchy'];
+        $_SESSION['UserDesmatricula'] = $dados['desmatricula'];
 
         header("Location: menuprincipal3.php");
 
