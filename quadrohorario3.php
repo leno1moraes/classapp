@@ -8,6 +8,9 @@
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
   	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/style.css">
 	
+<style>
+</style>
+
 </head>
 <body>
 	
@@ -16,83 +19,129 @@
 	<hr>
 	<br>
 
-	<table class="table table-bordered">
-		<tr>
-			<td colspan="11	">1 º ANO A</td>
-		</tr>
+	<div class="col-7">
+		<table class="table table-bordered">
+			<thead>
+				<tr bgcolor="#00004d">
+					<th class="text-center" colspan="11" ><font color="yellow">1 º ANO A </font></th>
+				</tr>
 
-		<tr>
-			<td>HORÁRIO</td>
-			<td>Segunda</td>
-			<td>Terça</td>
-			<td>Quarta</td>
-			<td>Quinta</td>
-			<td>Sexta</td>
-			<td>Sábado</td>
-		</tr>
+				<tr>
+					<th class="text-center" width="8%" bgcolor="#a3a375"> HORÁRIO </th>
+					<th class="text-center" width="15.3%" bgcolor="#a3a375"> Segunda </th>
+					<th class="text-center" width="15.3%" bgcolor="#a3a375"> Terça&nbsp;&nbsp;</th>
+					<th class="text-center" width="15.3%" bgcolor="#a3a375"> Quarta&nbsp;  </th>
+					<th class="text-center" width="15.3%" bgcolor="#a3a375"> Quinta&nbsp;  </th>
+					<th class="text-center" width="15.3%" bgcolor="#a3a375"> Sexta&nbsp;&nbsp;   </th>
+					<th class="text-center" width="15.3%" bgcolor="#a3a375"> Sábado&nbsp;  </th>
+				</tr>
 
-		<tr>
-			<td>07:15</td>
-			<td>Aula 1</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
+			</thead>
 
-		<tr>
-			<td>08:05</td>
-			<td>Aula 1</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
 
-		<tr>
-			<td>08:05</td>
-			<td>Aula 2</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"> <strong>07:15 08:05</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#ff6666"> <strong>Artes</strong> <br> Profa. Valeria K </td>
+				<td class="text-center" valign="middle" bgcolor="#000099"> <strong>Fundamentos de Química e Gestão de laboratório</strong> <br> Prof. Paulo </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#000099"> <strong>Química</strong> <br> Prof. Paulo </td>
+				<td class="text-center" valign="middle" bgcolor="#ff3300"> <strong>Matemática</strong> <br> Prof. Alessandro </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
 
-		<tr>
-			<td>08:55</td>
-			<td>Aula 2</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>08:05 08:55</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#ff6666"> <strong>Artes</strong> <br> Profa. Valeria K </td>
+				<td class="text-center" valign="middle" bgcolor="#000099"> <strong>Fundamentos de Química e Gestão de laboratório</strong> <br> Prof. Paulo </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X</td>
+				<td class="text-center" valign="middle" bgcolor="#ff9900"> <strong>Língua Portuguesa e Literatura</strong> <br> Prof. Tiago </td>
+				<td class="text-center" valign="middle" bgcolor="#ff3300"> <strong>Matemática</strong> <br> Prof. Alessandro </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
 
-		<tr>
-			<td>08:55</td>
-			<td>Aula 3</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>08:55 09:45</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#996633"> <strong>Geografia</strong> <br> Profa. Williana </td>
+				<td class="text-center" valign="middle" bgcolor="#000099"> <strong>Fundamentos de Química e Gestão de laboratório</strong> <br> Prof. Paulo </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ff9900"> <strong>Língua Portuguesa e Literatura</strong> <br> Prof. Tiago </td>
+				<td class="text-center" valign="middle" bgcolor="#996633"> <strong>Sociologia</strong> <br> Profa. Williana </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
 
-		<tr>
-			<td>09:45</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>					
+			<tr bgcolor="#4d0026">
+				<td class="text-center" colspan="7" align="center"> <font color="white"> INTERVALO	</font> </td>
+			</tr>
 
-	</table>
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>10:05 10:55</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#996633"> <strong>Geografia</strong> <br> Profa. Williana </td>
+				<td class="text-center" valign="middle" bgcolor="#ff3300"> <strong>Física</strong> <br> Prof. Alessandro </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#0099ff"> <strong>Bioquímica</strong> <br> Prof. Isabella </td>
+				<td class="text-center" valign="middle" bgcolor="#33cc33"> <strong>Biologia</strong> <br> Profa. Jucicléia </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
 
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>10:55 11:45</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#ffff00"> <strong>Bioética</strong> <br> Prof. Marcos </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#0099ff"> <strong>Bioquímica</strong> <br> Prof. Isabella </td>
+				<td class="text-center" valign="middle" bgcolor="#33cc33"> <strong>Biologia</strong> <br> Profa. Jucicléia </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
+
+			<tr bgcolor="#00004d">
+				<td colspan="7" align="center"> <font color="yellow"> <strong>ALMOÇO</strong></font> </td>
+			</tr>
+
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>13:30 14:20</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#ff0066"> <strong>Introdução a Biotecnologia</strong> <br> Profa. Fernanda </td>
+				<td class="text-center" valign="middle" bgcolor="#996600"> <strong>Educação Física</strong> <br> Prof. Evandro </td>
+				<td class="text-center" valign="middle" bgcolor="#ff9966"> <strong>Língua Espanhola</strong> <br> Prof. Marianna </td>
+				<td class="text-center" valign="middle" bgcolor="#ffff00"> <strong>História</strong> <br> Prof. Marcos </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
+
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>14:20 15:10</td>
+				<td class="text-center" valign="middle" bgcolor="#ff0066"> <strong>Introdução a Biotecnologia</strong> <br> Profa. Fernanda </td>
+				<td class="text-center" valign="middle" bgcolor="#996600"> <strong>Educação Física</strong> <br> Prof. Evandro </td>
+				<td class="text-center" valign="middle" bgcolor="#000099"> <strong>Fundamentos de Química e Gestão de laboratório</strong> <br> Prof. Paulo </td>
+				<td class="text-center" valign="middle" bgcolor="#ffff00"> <strong>História</strong> <br> Prof. Marcos </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
+
+			<tr bgcolor="#4d0026">
+				<td colspan="7" align="center"> <font color="white"> INTERVALO </font> </td>
+			</tr>
+
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>15:30 16:20</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#ff9966"> <strong>Língua Inglesa</strong> <br> Profa. Marianna </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#000099"> <strong>Fundamentos de Química e Gestão de laboratório</strong> <br> Prof. Paulo </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>		
+
+			<tr>
+				<td class="text-center" bgcolor="#a3a375"><strong>16:20 17:10</strong></td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#000099"> <strong>Fundamentos de Química e Gestão de laboratório</strong> <br> Prof. Paulo </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+				<td class="text-center" valign="middle" bgcolor="#ffffff"> X </td>
+			</tr>
+		</table>
+	</div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->    

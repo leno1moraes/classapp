@@ -1,4 +1,5 @@
 Tarefas a fazer:
-	1. Fazer a procedure de inserção de usuario
-	2. Fazer a pagina de quadro de horário
+	[] 1. Fazer a procedure de inserção de usuario
+	[] 2. Fazer a pagina de quadro de horário - a tabela
+	
 	
