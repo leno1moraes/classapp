@@ -3,3 +3,17 @@ Tarefas a fazer:
 	[] 2. Fazer a pagina de quadro de horário - a tabela
 	
 	
+------------------------------------------
+
+Instruções Iniciais
+
+1 - Site: http://classapp.com/login.php
+
+2 - Pasta do projeto: C:\classapp
+
+3 - Virtual Host Xampp:
+	"C:\Windows\System32\drivers\etc\hosts"
+	"C:\xampp\apache\conf\extra\httpd-vhosts.conf"
+	
+
+	
