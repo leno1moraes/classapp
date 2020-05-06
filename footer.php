@@ -41,8 +41,24 @@
 <!-- AdminLTE for demo purposes -->
 <script src="AdminTLEFiles/demo.js.download"></script>
 
+<script src="AdminTLEFiles/jquery.min.js"></script>
+<script src="AdminTLEFiles/bootstrap-datepicker.min.js"></script>
+<script src="AdminTLEFiles/bootstrap-datepicker.pt-BR.min.js"></script>
 
 <!--<div class="jvectormap-label"></div>-->
+  <script>
+    $(document).ready(function(){
+      $(".DateField").datepicker({
+        multidate:false,
+          format: "dd/mm/yyyy",
+          language: "pt-BR",    
+      });
+
+      $(".table-condensed tbody").click(function(){
+        setTimeout(function(){ $('.abc').val($('.DateField[type=hidden]').val()); }, 1000)
+      });
+    });
+  </script>
 
 </body>
 </html>

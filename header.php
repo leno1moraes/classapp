@@ -8,7 +8,7 @@
 <html style="height: auto; min-height: 100%;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>AdminLTE 2 | Dashboard</title>
+  <title>Sistema Troca de Horários</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.7 -->
@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="AdminTLEFiles/_all-skins.min.css">
 
   <link rel="stylesheet" href="open-iconic-master/font/css/open-iconic-bootstrap.css">
+
+  <link rel="stylesheet" href="AdminTLEFiles/bootstrap-datepicker.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -63,6 +65,11 @@
 	.borderless td, .borderless th {
 		border: none;
 	}		
+
+    .DateField{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
 </style>
 
 </head>
@@ -158,11 +165,20 @@
 
 
         <li><a href="quadrohorario2.php"><i class="fa fa-archive"></i> <span>Quadro de Horário</span></a></li>
+        
         <li><a href="myrequests2.php"><i class="fa fa-archive"></i> <span>Minhas Solicitações</span></a></li>
-        <li><a href="requestclass2.php"><i class="fa fa-edit"></i> <span>Solicitar Aula</span></a></li>
+        
+        <!--<li><a href="requestclass2.php"><i class="fa fa-edit"></i> <span>Solicitar Aula</span></a></li>-->
+
+        <li><a href="quadrohorario-stage-a.php"><i class="fa fa-edit"></i> <span>Solicitar Aula</span></a></li>
+
+
         <li><a href="myauthorize2.php"><i class="fa fa-laptop"></i> <span>Autorizações</span></a></li>
+        
         <li><a href="formcad2.php"><i class="fa fa-th"></i> <span>Minhas Informações</span></a></li>   
+        
         <li><a href="minhasmaterias2.php"><i class="fa fa-tags"></i> <span>Minhas Matérias</span></a></li>
+
 		<li><a href="login.php"><i class="fa fa-sign-out"></i> <span>Sair</span></a></li>
       </ul>
     </section>

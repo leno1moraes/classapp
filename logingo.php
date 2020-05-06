@@ -30,7 +30,7 @@
         $_SESSION['UserHierarchy'] = $dados['hierarchy'];
         $_SESSION['UserDesmatricula'] = $dados['desmatricula'];
 
-        header("Location: menuprincipal3.php");
+        header("Location: main.php");
 
 	}else{
 

@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Sistema Troca de Horários</title>
-	
-  	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/bootstrap.css">
-  	<link rel="stylesheet" href="bootstrap/node_modules/bootstrap/compiler/style.css">
-	
-<style>
-</style>
+<?php 
+    require_once("header.php");
+?>
 
-</head>
-<body>
-	
-
-	<br>
 	<hr>
-	<br>
+
+	<p class="bg-primary container-fluid"> <b> Solicitar Aula >> 1º B >> Data 00/00/0000 <b> </p>
 
 	<div>
 		<table id="tableMaster" border="1" cellspacing="1" cellpadding="1" style="font-size: 11px;" width="75%">
@@ -144,43 +131,10 @@
 	</div>
 
 
-	<!--
-	<br><br>
-	<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-	<label for="vehicle1"> I have a bike</label><br>
-	<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-	<label for="vehicle2"> I have a car</label><br>
-	<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-	<label for="vehicle3"> I have a boat</label>
-	<input type="button" name="bt1" id="bt1" class="bt1" value="Botão de Teste">
-	-->
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->    
-    <script src="bootstrap/node_modules/jquery/dist/jquery.js"></script>
-    <script src="bootstrap/node_modules/popper.js/dist/umd/popper.js"></script>
-    <script src="bootstrap/node_modules/bootstrap/dist/js/bootstrap.js"></script>	
 
+<?php
 
-	<script>		
-		
-		/*$("#bt1").click(function(){
-		    alert("Olá Mundo");
-		});*/
-		
-
-
-	   $("#tableMaster").on("click", "td", function() {
-	     //alert($( this ).text());
-	     //alert(this.id);
-
-	     //$(this).css('background-color', 'red');
-
-	     alert($('background-color').value);
-
-	   });			
-	</script>
-
-</body>
-</html>
+    require_once("footer.php");
+?> 
