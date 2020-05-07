@@ -66,9 +66,14 @@
 		border: none;
 	}		
 
-    .DateField{
-      font-family: Arial, Helvetica, sans-serif;
-    }
+  .DateField{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .tableMaster tr{
+    background-color: #CCCCFF;
+    color: black;
+  }
 
 </style>
 
@@ -166,7 +171,7 @@
 
         <li><a href="quadrohorario2.php"><i class="fa fa-archive"></i> <span>Quadro de Horário</span></a></li>
         
-        <li><a href="myrequests2.php"><i class="fa fa-archive"></i> <span>Minhas Solicitações</span></a></li>
+        <li><a href="myrequests.php"><i class="fa fa-archive"></i> <span>Minhas Solicitações</span></a></li>
         
         <!--<li><a href="requestclass2.php"><i class="fa fa-edit"></i> <span>Solicitar Aula</span></a></li>-->
 

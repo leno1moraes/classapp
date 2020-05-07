@@ -58,6 +58,24 @@
         setTimeout(function(){ $('.abc').val($('.DateField[type=hidden]').val()); }, 1000)
       });
     });
+
+
+    /*$("#bt1").click(function(){
+        alert("Olá Mundo");
+    });*/
+
+     $("#tableMaster").on("click", "td", function() {
+       //alert($( this ).text());
+       //alert(this.id);
+       $(this).css('background-color', '#0044cc');
+       //alert($('background-color').value);
+     });  
+
+     $("#btnFinalizarSolicitacao").on("click", function() {
+        alert("Solicitação Finalizada com Sucesso");
+        location.replace("myrequests.php");
+     }); 
+
   </script>
 
 </body>

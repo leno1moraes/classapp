@@ -4,12 +4,12 @@
 
 	<hr>
 
-	<p class="bg-primary container-fluid"> <b> Solicitar Aula >> 1º B >> Data 00/00/0000 <b> </p>
+	<p class="bg-primary container-fluid"> <b> Solicitar Aula >> 1º A >> Data 00/00/0000 <b> </p>
 
-	<div>
-		<table id="tableMaster" border="1" cellspacing="1" cellpadding="1" style="font-size: 11px;" width="75%">
+	<div class="container-fluid">
+		<table class="tableMaster" id="tableMaster" border="1" cellspacing="1" cellpadding="1" style="font-size: 11px;" width="75%">
 			<thead>
-				<tr>
+				<tr >
 					<th colspan="11" ><center> 1 º ANO A </center></th>
 				</tr>
 
@@ -24,7 +24,6 @@
 				</tr>
 
 			</thead>
-
 
 			<tr>
 				<td align="center"> <strong>07:15 08:05</strong></td>
@@ -127,11 +126,19 @@
 				<td align="center" id="54"> X </td>
 				<td align="center" id="55"> X </td>
 			</tr>
+
+			<tr>
+				<td colspan="11" align="center">
+						<a href="quadrohorario-stage-d.php">
+							<button type="button" class="btn btn-warning btn-block">Avançar </button>
+						</a>
+					</td>
+			</tr>
 		</table>
 	</div>
 
 
-
+	<br><br>
 
 
 <?php

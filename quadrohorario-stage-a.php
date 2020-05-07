@@ -9,32 +9,44 @@
 		<table class="table">
 			<tr>
 				<td>
-					<button class="btn btn-block btn-primary">1º A</button>
+					<a href="quadrohorario-stage-b.php">
+						<button class="btn btn-block btn-primary">1º A</button>
+					</a>
 				</td>
 			</tr>
 			<tr>
 				<td>
-					<button class="btn btn-block btn-primary">1º B</button>
+					<a href="quadrohorario-stage-b.php">
+						<button class="btn btn-block btn-primary">1º B</button>
+					</a>
 				</td>
 			</tr>	
 			<tr>
 				<td>
-					<button class="btn btn-block btn-primary">2º A</button>
+					<a href="quadrohorario-stage-b.php">
+						<button class="btn btn-block btn-primary">2º A</button>
+					</a>
 				</td>
 			</tr>	
 			<tr>
 				<td>
-					<button class="btn btn-block btn-primary">2º B</button>
+					<a href="quadrohorario-stage-b.php">
+						<button class="btn btn-block btn-primary">2º B</button>
+					</a>
 				</td>
 			</tr>		
 			<tr>
 				<td>
-					<button class="btn btn-block btn-primary">3º A</button>
+					<a href="quadrohorario-stage-b.php">
+						<button class="btn btn-block btn-primary">3º A</button>
+					</a>
 				</td>
 			</tr>	
 			<tr>
 				<td>
-					<button class="btn btn-block btn-primary">3º B</button>
+					<a href="quadrohorario-stage-b.php">
+						<button class="btn btn-block btn-primary">3º B</button>
+					</a>
 				</td>
 			</tr>									
 		</table>

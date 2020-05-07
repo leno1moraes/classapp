@@ -4,7 +4,7 @@
 
 	<hr>
 
-	<p class="bg-primary container-fluid"> <b> Solicitar Aula >> 1º B >> Data 00/00/0000 <b> </p>
+	<p class="bg-primary container-fluid"> <b> Solicitar Aula >> 1º A <b> </p>
 
 	<div class="col-md-2">
 		<table class="table">
@@ -21,7 +21,9 @@
 			</tr>
 			<tr>
 				<td>
-					<button type="button" class="btn btn-warning btn-block">Avançar </button>	
+					<a href="quadrohorario-stage-c.php">
+						<button type="button" class="btn btn-warning btn-block">Avançar </button>
+					</a>	
 				</td>
 			</tr>									
 		</table>
